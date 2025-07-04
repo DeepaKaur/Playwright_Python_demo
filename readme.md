@@ -7,6 +7,7 @@ This project demonstrates basic browser automation using [Playwright](https://pl
 - Python 3.7+
 - [Playwright for Python](https://playwright.dev/python/)
 - [pytest](https://docs.pytest.org/en/stable/) (for running tests)
+- pip install -r requirements.txt
 
 ## Setup
 
@@ -29,9 +30,12 @@ This project demonstrates basic browser automation using [Playwright](https://pl
     ```
     pytest tests\test_google.py --headed
     pytest tests\test_google.py --browser=chromium --headed --screenshot=on --video=on
+    pytest .\tests\test_rec_ampcharge.py
+    pytest
     ```
 
 ## Files
 
 - `first_test.py`: Basic script to open Google and print the page title.
 - `test_google_title.py`: Pytest test to open Google and verify search
+- `test_rec_ampcharge.py`: Pytest test to open ampcharge and verify search location 
