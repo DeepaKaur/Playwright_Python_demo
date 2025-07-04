@@ -1,0 +1,15 @@
+*.pyc
+__pycache__/
+*.pyo
+*$py.class
+.venv1/
+.env
+*.log
+tmp/
+pip-log.txt
+.pyre/
+.pytype/
+*.html
+.css
+assets/
+
